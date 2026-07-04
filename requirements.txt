@@ -1,0 +1,18 @@
+# CUDA'li PyTorch icin ek paket deposu (pip, +cu130 surumunu otomatik secer)
+--extra-index-url https://download.pytorch.org/whl/cu130
+
+streamlit
+ultralytics
+# LocateAnything-3B'nin remote code'u transformers 5.x dahili API'siyle uyumsuz
+transformers<5
+torch
+torchvision
+accelerate
+# 8 GB VRAM'de 4-bit kuantalama icin
+bitsandbytes
+opencv-python-headless
+numpy
+pillow
+decord
+lmdb
+peft

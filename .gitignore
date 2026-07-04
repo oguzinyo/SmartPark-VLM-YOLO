@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Büyük arşivler ve veri setleri (data/ altındaki ~890 MB'lık zip'ler repoya girmez)
+data/
+*.zip
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Claude Code (yerel oturum/önizleme yapılandırması)
+.claude/
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+progress.md
